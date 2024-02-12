@@ -5,22 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP BBC News</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link
+    href="https://db.onlinewebfonts.com/c/a1d0120b37754be8e80e39ab6ab95130?family=BBC+Reith+Sans"
+    rel="stylesheet"
+    />
 </head>
 <body>
     <header>
-        <a href="#"><img src="images/logoBBC.png" alt="logo BBC"></a><a href="#"><img src="images/signIn.png" alt="loggin"> Sign in</a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Sport</a></li>
-            <li><a href="#">Earth</a></li>
-            <li><a href="#">Reel</a></li>
-            <li><a href="#">Worklife</a></li>
-            <li><a href="#">Travel</a></li>
-            <li><a href="#">Culture</a></li>
-            <li><a href="#"><img src="images/" alt="....png"></a></li><!-- JS pour créer le sous menu -->
-        </ul>
-        <input type="search">
+        <nav>
+            <ul>
+                <li><a href="#"><img src="images/logoBBC.png" alt="logo BBC" id="logo"></a></li>
+                <li id="signIn"><img src="images/signIn.png" alt="loggin"> Sign in</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Earth</a></li>
+                <li><a href="#">Reel</a></li>
+                <li><a href="#">Worklife</a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><img src="images/....png" alt="plus">
+                    <ul class="submenu">
+                    <li><a href="#">Future</a></li>
+                    <li><a href="#">TV</a></li>
+                    <li><a href="#">Weather</a></li>
+                    <li><a href="#">Sounds</a></li>
+                    </ul>
+                </li>
+                <input type="search">
+            </ul>
+        </nav>
+        <div id="news">
+            <h2>NEWS</h2>
+            <ul class="menuNews">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Israel-Gaza war</a></li>
+                <li><a href="#">War in Ukraine</a></li>
+                <li><a href="#">Climate</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">UK</a></li>
+                <li><a href="#">Buisness</a></li>
+                <li><a href="#">Tech</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Entertainment & Arts</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">World news TV</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <p>
