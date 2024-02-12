@@ -1,0 +1,15 @@
+* {box-sizing: border-box;}
+/* Pour grand écran */
+@media screen and (min-width: 1280px) {
+    body {margin : 0 20%; padding: 0 0;
+        text-align: center;
+        border: 1px solid red
+    }
+}
+@media screen and (max-width: 1279px){
+    body {margin : 0 0; padding: 0 0;
+        text-align: center;
+        border: 1px solid red
+    }
+}
+
